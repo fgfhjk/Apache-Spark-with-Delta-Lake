@@ -29,7 +29,7 @@ object a2 {
 
     val spark = SparkSession.builder()
       .master("local[2]")
-      .appName("a1")
+      .appName("a2")
       .getOrCreate()
     val df = spark.read.format("csv")
       .option("header", "True")
