@@ -167,3 +167,16 @@ click on main->src->Scala object->Give a scala object name
 Now you can add a main class i.e.
 def main(args: Array[String])
 and start writing your spark code
+
+
+# Resources
+
+Spark Standalone setup/installation
+https://www.geeksforgeeks.org/install-apache-spark-in-a-standalone-mode-on-windows/
+
+Delta format official documentation
+https://docs.delta.io/latest/index.html
+
+
+Apache Spark official documentation
+ https://spark.apache.org/docs/latest
