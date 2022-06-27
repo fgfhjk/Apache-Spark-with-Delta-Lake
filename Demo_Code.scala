@@ -1,9 +1,7 @@
 Demo
-To integrate spark with Delta Lake add a library dependency to build.sb
+To integrate spark with Delta Lake add a library dependency to build.sbt
 
-libraryDependencies += "io.delta" %% "delta-core" % "1.0.1"
-
-(for Spark 3.2.1)
+libraryDependencies += "io.delta" %% "delta-core" % "1.0.1"(for Spark 3.2.1)
 
 to know your version compatiblity click on this URL
 
